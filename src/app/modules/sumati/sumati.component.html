@@ -5,8 +5,8 @@
   </GridLayout>
 
   <ScrollView orientation="vertical">
-    <FlexboxLayout>
+    <StackLayout height="100%">
       <ns-poem *ngFor="let poem of poemsList.poems" [poem]="poem"></ns-poem>
-    </FlexboxLayout>
+    </StackLayout>
   </ScrollView>
 </StackLayout>

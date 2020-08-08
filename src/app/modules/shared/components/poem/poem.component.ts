@@ -22,4 +22,8 @@ export class PoemComponent implements OnInit {
     constructor() {}
 
     ngOnInit(): void {}
+
+    onTappingGrammarLink(link: string) {
+        console.log(link);
+    }
 }

@@ -35,6 +35,7 @@
               *ngFor="let link of word.grammarlinks"
               text="{{ link + ' ' }}"
               class="grammarLinks"
+              (tap)="onTappingGrammarLink(link)"
             ></Label>
           </WrapLayout>
         </ng-container>
