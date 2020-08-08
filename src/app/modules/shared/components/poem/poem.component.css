@@ -1,0 +1,33 @@
+.container {
+  padding: 10;
+  background-color: tan;
+}
+.block {
+  background-color: lightgreen;
+  text-align: center;
+  border-radius: 30%;
+  font-weight: bold;
+  padding: 5;
+}
+
+.lines {
+  font-size: 18;
+}
+
+.meanBlock,
+.wordDetailBlock {
+  margin-top: 10;
+}
+
+.meaningList {
+  text-align: left;
+  padding: 5;
+}
+
+.title {
+  color: sienna;
+}
+
+.grammarLinks {
+  color: steelblue;
+}

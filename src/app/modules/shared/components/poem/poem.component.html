@@ -1,0 +1,44 @@
+<StackLayout orientation="vertical" class="container">
+  <Label textWrap="true" class="block lines">
+    <FormattedString>
+      <ng-container *ngFor="let word of poem.words">
+        <ng-container *ngIf="word.word !== 'NL'">
+          <Span [text]="word.word" class="word"></Span>
+          <Span text="&#32;"></Span>
+        </ng-container>
+        <ng-container *ngIf="word.word === 'NL'">
+          <Span text="&#xa;"></Span>
+        </ng-container>
+      </ng-container>
+    </FormattedString>
+  </Label>
+
+  <StackLayout class="block meanBlock">
+    <Label text="భావం" class="title"></Label>
+    <Label [text]="poem.Meaning" textWrap="true"></Label>
+  </StackLayout>
+
+  <StackLayout class="block wordDetailBlock">
+    <Label text="ప్రతిపదార్ధం" class="title"></Label>
+
+    <StackLayout orientation="vertical" class="meaningList">
+      <ng-container *ngFor="let word of poem.words">
+        <Label
+          textWrap="true"
+          *ngIf="word.word !== 'NL'"
+          text="{{ word.word + ' = ' + word.meaning }}"
+        ></Label>
+        <ng-container *ngIf="word.grammarlinks.length > 0">
+          <Label text="వ్యాకరణాంశాలు: " class="title"></Label>
+          <WrapLayout>
+            <Label
+              *ngFor="let link of word.grammarlinks"
+              text="{{ link + ' ' }}"
+              class="grammarLinks"
+            ></Label>
+          </WrapLayout>
+        </ng-container>
+      </ng-container>
+    </StackLayout>
+  </StackLayout>
+</StackLayout>

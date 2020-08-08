@@ -1,0 +1,12 @@
+<StackLayout>
+  <GridLayout columns="*,*,*" rows="auto" backgroundColor="darkgreen">
+    <Label col="1" row="0" text="సుమతీ శతకం" class="title"></Label>
+    <Label col="2" row="0" text="కవి: బద్దెన" class="title"></Label>
+  </GridLayout>
+
+  <ScrollView orientation="vertical">
+    <FlexboxLayout>
+      <ns-poem *ngFor="let poem of poemsList.poems" [poem]="poem"></ns-poem>
+    </FlexboxLayout>
+  </ScrollView>
+</StackLayout>

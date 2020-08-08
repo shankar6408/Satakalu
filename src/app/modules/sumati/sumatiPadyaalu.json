@@ -1,0 +1,42 @@
+{
+  "poems": [
+    {
+      "words": [
+        {
+          "word": "శ్రీ",
+          "meaning": "సీతా సమేత / మహోన్నతుడివైన",
+          "grammarlinks": []
+        },
+        { "word": "రాముని", "meaning": "రాముని", "grammarlinks": [] },
+        { "word": "దయచేతను", "meaning": "దయ వలన", "grammarlinks": [] },
+        { "word": "NL", "meaning": "", "grammarlinks": [] },
+        { "word": "నారూఢిగ", "meaning": "ప్రముఖముగా", "grammarlinks": [] },
+        { "word": "సకల", "meaning": "సకల", "grammarlinks": [] },
+        { "word": "జనులు", "meaning": "ప్రజలు", "grammarlinks": [] },
+        { "word": "నౌరా", "meaning": "ఆశ్చర్యముతో ఔరా", "grammarlinks": [] },
+        { "word": "యనగాఁ", "meaning": "అనగా", "grammarlinks": [] },
+        { "word": "NL", "meaning": "", "grammarlinks": [] },
+        {
+          "word": "ధారళమైన",
+          "meaning": "ధారాలము + ఐన = నిరాటంకముగా",
+          "grammarlinks": ["ukaara-sandhi"]
+        },
+        { "word": "నీతులు", "meaning": "నీతులు", "grammarlinks": [] },
+        { "word": "NL", "meaning": "", "grammarlinks": [] },
+        {
+          "word": "నోరూరగఁ",
+          "meaning": "నోరు+ఊరగ",
+          "grammarlinks": ["savarnadheerga-sandhi"]
+        },
+        { "word": "జవులుబుట్ట", "meaning": "", "grammarlinks": [] },
+        { "word": "నుదివెద", "meaning": "తెలిపెద", "grammarlinks": [] },
+        {
+          "word": "సుమతీ",
+          "meaning": "మంచి బుద్ధి కలవాడా!",
+          "grammarlinks": []
+        }
+      ],
+      "Meaning": "ఓ మంచి గుణాలు గలవాడా! శ్రీ రామచంద్రుని యొక్క దయ చేత, ప్రజలందరు ఆశ్చర్యపడునట్లు ప్రఖ్యాతమైన ధారళమైన నీతులను, వినువారికి నోరు నుండి నీళ్ళు ఊరునట్టి విధముగా తెలుపును."
+    }
+  ]
+}
